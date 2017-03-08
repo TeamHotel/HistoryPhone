@@ -8,8 +8,7 @@ DROP TABLE IF EXISTS suggestions;
 CREATE TABLE suggestions(uuid varchar(30) NOT NULL, text VARCHAR(1024) NOT NULL);
 
 INSERT INTO BotInfo VALUES('56', 'BBC Micro', 'I''m an educational computer built in the 80''s', '<filename>');
-INSERT INTO BotInfo VALUES('1234', 'Sample Bot Name 2.', 'This is the description of the second bot.', '<filename>');
-INSERT INTO BotInfo VALUES('12345', 'Sample Bot Name 3.', 'This is the description of the second bot.', '<filename>');
+INSERT INTO BotInfo VALUES('57', 'Raspberry Pi.', 'I''m a cheap educational single-board computer.', '<filename>');
 
 
 INSERT INTO responses VALUES
